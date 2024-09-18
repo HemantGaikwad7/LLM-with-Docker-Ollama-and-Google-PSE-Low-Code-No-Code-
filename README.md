@@ -19,6 +19,7 @@ To download the phi3 model using Ollama, run the following command:
 
 bash
 Copy code
+
 ollama pull phi3
 
 
@@ -27,6 +28,7 @@ Start the Docker container using this command:
 
 bash
 Copy code
+
 docker run -d -p 3000:8080 --gpus=all -v ollama:/root/.ollama-v -v /app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:ollama
 
 
