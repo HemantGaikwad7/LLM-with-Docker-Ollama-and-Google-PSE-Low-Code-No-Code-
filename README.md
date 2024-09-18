@@ -13,18 +13,23 @@ Ollama installed on your machine.
 Docker installed.
 A Google Programmable Search Engine (PSE) API key.
 🚀 Installation
+
 Step 1: Pull the Model
 To download the phi3 model using Ollama, run the following command:
 
 bash
 Copy code
 ollama pull phi3
+
+
 Step 2: Run the Docker Container
 Start the Docker container using this command:
 
 bash
 Copy code
 docker run -d -p 3000:8080 --gpus=all -v ollama:/root/.ollama-v -v /app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:ollama
+
+
 Step 3: Set Up Google PSE Integration
 Obtain a Google PSE API key by creating a Programmable Search Engine on Google Custom Search.
 Configure the API key and Search Engine ID in the Docker container environment to enable real-time web search.
