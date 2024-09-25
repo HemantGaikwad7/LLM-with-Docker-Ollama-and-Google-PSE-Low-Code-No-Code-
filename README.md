@@ -2,6 +2,8 @@
 📚 Overview
 This project demonstrates how to deploy a Large Language Model (LLM) with no-code/low-code capabilities using Docker, Ollama, and Google Programmable Search Engine (PSE). The LLM (phi3) runs in a Docker container, enhanced by GPU support for faster inference, and integrates web search functionality using Google PSE to augment model responses with real-time data.
 
+Youtube Link :- https://youtu.be/U4C4xOivWdI
+
 ✨ Features
 No-Code Deployment: Simple to deploy and interact with the LLM without writing any code.
 Web Search Integration: Real-time web search capability powered by the Google PSE API.
